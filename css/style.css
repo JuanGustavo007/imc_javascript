@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: rgb(210, 210, 210);
+}
+
+.formulario {
+   display: flex;
+   flex-direction: column;
+}
+
+
+.enviar {
+   border: 1px solid #fff;
+   margin-top: 10px;
+   background-color: rgb(67, 68, 68);
+   color: #fff;
+   border: 1px solid rgb(210, 210, 210);
+}
+
+.enviar:hover {
+   color: #fff;
+   background-color: red;
+   transition: 0.5s ease;
+}
